@@ -53,5 +53,8 @@
     "hooks": {
       "commit-msg": "./node_modules/.bin/commitlint -e $HUSKY_GIT_PARAMS"
     }
+  },
+  "dependencies": {
+    "jshint": "^2.11.0"
   }
 }
